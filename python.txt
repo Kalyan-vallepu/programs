@@ -1,0 +1,80 @@
+1. Write a python program sort the list without using sort() method
+Sample Input:
+list1 = [3,6,2,4,8,7,22,11,13,9,0,1,0]
+Expected Output:
+[0,0,1,2,3,4,6,7,8,9,11,13,22........]
+
+2. Write a python program print the tables. Follow the steps
+Step 1:
+Teke two user input
+start = userinput()
+end = userinput()
+Step 2:
+print the tables for example start =1, end = 10
+print 1 to 10 tables
+Expected Output:
+1*1=1
+1*2=2
+-----
+-----
+1*10=10
+
+2*1=2
+2*2=4
+-----
+-----
+
+3. Write a python program to print the pattern using nested for loop
+Expected Output:
+    *
+   * *
+  * * *
+ * * * * 
+* * * * *
+
+4. Write a python program follow the below steps
+Step1:
+Take user input that is words of string like "python is easy to understand"
+Step2:
+Split the string without using split() menthd
+Step3:
+print the each word with other words
+Expected Output:
+first one
+["python","is","easy","understand"]
+final output is:
+python is      
+python easy
+python undestand
+is python
+is easy
+is understand
+----------
+----------
+
+5. Write a python program compare two lists words, if both words are same print that word
+Sample Input:
+list1 
+= ["Ravi","Anil","Madhu","Mahesh","Manohar"]
+list2 = ["Madhu","Karthik","Ravi","Sravn"]
+Expected Output:
+Madhu
+Ravi
+
+6. Write a python program to take the tuple of list with elements
+Sample Input:
+tuple_of_list = (1,2,3,4,[],5,6,7,8) --> I want to add elements in list, But I want to add only inside tuple of elemnts
+Expected Output:
+(1,2,3,4,[1,2,3,4,5,6,7,8],5,6,7,8)
+
+7. Write a python take two nested list, compare outside list and nested list, if outside list and inside list
+   elements are same delete the outside list element, don't use another list.
+Sample Input:
+list1 = [1,2,3,4,5,6,7,8,9[10,20,30,4,1,3,5,7],100,200,300,400]
+Expcted Output:
+[2,6,8,9[10,20,30,4,1,3,5,7],100,200,300,400] 
+
+8. Write a python program take the nested dictionary, if valurs are list print the even numbers in that list
+Sample Input:
+nested_dict = {"name":{"list1":[1,2,3,4,5,6,7],"list2":["karthik",10,21,25,27,40,44,46,"ravi"},"name2":{"first":(1,2,3,4,5),"second":[90,98,99,76,77,55,48]}}
+
